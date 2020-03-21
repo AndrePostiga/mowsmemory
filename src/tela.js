@@ -22,8 +22,8 @@ const MENSAGENS = {
 class Tela {
     static obterCodigoHtml(item){
         return `
-        <div class="col-3 col-sm-3 col-md-3 col-lg-4">
-            <div class="card" style="width: 40%;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
+        <div class="col-3 col-sm-3 col-md-1 col-lg-1">
+            <div class="card" style="width: 100%;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
                 <img src="${item.img}" name="${item.nome}" class="card-img-top" alt="...">        
             </div>
             <br />
